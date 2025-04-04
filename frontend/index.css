@@ -3,4 +3,21 @@
     width: 100%;
 }
 
-#home {}
+/*Creating a flex class*/
+.flex {
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    height: 250px;
+    width: 100%;
+    background-color: #FFF0DC;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 150px;
+}
