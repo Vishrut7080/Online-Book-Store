@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
 .outer-container {
     height: 100%;
     width: 100%;
@@ -5,24 +12,27 @@
 
 /*Creating a flex class*/
 .flex {
-    direction: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*Creating border class*/
 .border {
-    border: 10px solid black;
+    border: 5px solid black;
 }
 
 #home {
-    height: 250px;
+    height: 200px;
     width: 100%;
     background-color: #FFF0DC;
-    flex-direction: column;
     justify-content: space-around;
 }
 
 #logo {
-    width: 150px;
+    width: 350px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
 }
