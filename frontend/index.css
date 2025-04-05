@@ -27,10 +27,11 @@ body {
 }
 
 #home {
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: #FFF0DC;
     justify-content: space-around;
+    border-bottom: 25px solid #543A14;
 }
 
 #logo {
@@ -39,4 +40,12 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 45px;
+    color: darkgrey;
+    background-color: #543A14;
+    text-shadow: 2px 5px 3px #F0BB78;
+}
+
+#logo-picture {
+    width: 450px;
+    height: 80%;
 }
