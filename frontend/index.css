@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+/*Creating border class*/
+.border {
+    border: 10px solid black;
+}
+
 #home {
     height: 250px;
     width: 100%;
