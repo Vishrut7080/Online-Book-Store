@@ -10,22 +10,6 @@ body {
     width: 100%;
 }
 
-/*Creating a flex class*/
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Creating border class*/
-.border {
-    border: 5px solid black;
-}
-
-.border-radius {
-    border-radius: 25%;
-}
-
 #home {
     height: 250px;
     width: 100%;
@@ -49,4 +33,18 @@ body {
 #logo-picture {
     width: 450px;
     height: 80%;
+}
+
+/*Navbar*/
+#navbar {
+    height: 80px;
+    background-color: #131010;
+    color: white;
+    justify-content: space-around;
+}
+
+.nav-elem {
+    height: 55%;
+    width: 10%;
+    background-color: #99BC85;
 }

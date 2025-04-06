@@ -1,0 +1,28 @@
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*Classes*/
+
+/*Creating a flex class*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Creating border class*/
+.border {
+    border: 5px solid black;
+}
+
+/*Creating class for making border circular*/
+.border-radius {
+    border-radius: 25%;
+}
+
+/*Creating a class for text shadow*/
+.text-shadow {
+    text-shadow: 2px 5px 3px #131010;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
