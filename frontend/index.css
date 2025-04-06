@@ -49,3 +49,10 @@ body {
     width: 450px;
     height: 80%;
 }
+
+/*Navbar*/
+#navbar {
+    height: 80px;
+    background-color: #131010;
+    color: white;
+}
