@@ -48,3 +48,11 @@ body {
     width: 10%;
     background-color: #99BC85;
 }
+
+a {
+    text-decoration: none;
+    color: #131010;
+    font-size: 20px;
+    font-weight: 550;
+    text-shadow: 15px 15px 5px#131010;
+}
