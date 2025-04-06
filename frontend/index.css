@@ -32,6 +32,7 @@ body {
     background-color: #FFF0DC;
     justify-content: space-around;
     border-bottom: 25px solid #543A14;
+    border-top: 25px solid #543A14;
 }
 
 #logo {
