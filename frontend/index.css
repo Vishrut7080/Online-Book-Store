@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*Classes*/
+
 /*Creating a flex class*/
 .flex {
     display: flex;
@@ -22,9 +26,13 @@ body {
     border: 5px solid black;
 }
 
+/*Creating class for making border circular*/
 .border-radius {
     border-radius: 25%;
 }
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
 
 #home {
     height: 250px;
