@@ -99,4 +99,5 @@ a {
     margin-bottom: 10px;
     font-family: "Lavishly Yours", cursive;
     font-size: 60px;
+    user-select: none;
 }
