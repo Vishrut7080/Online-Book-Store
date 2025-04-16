@@ -63,12 +63,12 @@ body {
     background-color: #99BC85;
 }
 
-a {
+.nav-elem>a {
     text-decoration: none;
     color: #131010;
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
     font-weight: 550;
-    text-shadow: 15px 15px 5px#131010;
 }
 
 /*Sections*/

@@ -21,7 +21,11 @@
 
 /*Creating a class for text shadow*/
 .text-shadow {
-    text-shadow: 2px 5px 3px #131010;
+    text-shadow: 10px 10px 4px #131010;
+}
+
+.box-shadow {
+    box-shadow: 4px 3px 1.5px 5px rgba(255, 255, 255, 0.519);
 }
 
 .text-shadow-1 {
