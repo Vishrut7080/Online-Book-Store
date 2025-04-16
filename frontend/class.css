@@ -24,6 +24,10 @@
     text-shadow: 2px 5px 3px #131010;
 }
 
+.text-shadow-1 {
+    text-shadow: 2px 2px 1px black;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }

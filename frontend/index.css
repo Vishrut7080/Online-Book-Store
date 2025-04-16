@@ -78,16 +78,27 @@ a {
     padding: 55px
 }
 
+/* to select button */
+#genre>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .heading {
     font: 45px black;
     font-weight: 900;
     height: 75px;
     width: 150px;
     vertical-align: middle;
+    user-select: none;
+    margin: auto;
+    margin-top: 15px;
 }
 
 .genre-image {
     max-width: 100%;
+    user-select: none;
 }
 
 .genre-image>img {
