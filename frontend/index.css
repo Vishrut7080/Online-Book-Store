@@ -1,3 +1,7 @@
+/* ------------------------- */
+/* file for styling index html */
+/* ------------------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,6 +19,10 @@ body {
     height: 100%;
     width: 100%;
 }
+
+/* ------------------------- */
+/* home bar */
+/* ------------------------- */
 
 #home {
     height: 250px;
@@ -51,13 +59,20 @@ body {
     user-select: none;
 }
 
+/* ------------------------- */
 /*Navbar*/
+/* ------------------------- */
+
 #navbar {
     height: 80px;
     background-color: #131010;
     color: white;
     justify-content: space-around;
 }
+
+/* ------------------------- */
+/* more on navbar */
+/* ------------------------- */
 
 #inner-container {
     height: 100px;
@@ -81,7 +96,10 @@ body {
     font-weight: 550;
 }
 
+/* ------------------------- */
 /*Sections*/
+/* ------------------------- */
+
 #genre {
     align-items: center;
     justify-content: space-evenly;
