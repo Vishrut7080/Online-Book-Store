@@ -43,6 +43,14 @@ body {
     justify-content: space-around;
 }
 
+#inner-container {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #131010;
+}
+
 .nav-elem {
     height: 55%;
     width: 10%;
