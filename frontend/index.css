@@ -90,6 +90,10 @@ a {
     height: 500px;
 }
 
+.genre-image {
+    height: 100%;
+}
+
 .genre-image>img {
     height: 85%;
 }
