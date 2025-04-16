@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100dvh;
+    max-width: 100dvw;
 }
 
 .outer-container {
@@ -69,6 +75,7 @@ a {
 #genre {
     align-items: center;
     justify-content: space-evenly;
+    padding: 55px
 }
 
 .heading {
@@ -79,4 +86,10 @@ a {
     vertical-align: middle;
 }
 
-.genre {}
+.genre {
+    height: 500px;
+}
+
+.genre-image>img {
+    height: 85%;
+}
