@@ -64,3 +64,19 @@ a {
     font-weight: 550;
     text-shadow: 15px 15px 5px#131010;
 }
+
+/*Sections*/
+#genre {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading {
+    font: 45px black;
+    font-weight: 900;
+    height: 75px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.genre {}
