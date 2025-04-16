@@ -23,6 +23,12 @@ body {
     justify-content: space-around;
     border-bottom: 25px solid #543A14;
     border-top: 25px solid #543A14;
+    user-select: none;
+}
+
+#home>button {
+    background: none;
+    border: none;
 }
 
 #logo {
@@ -34,11 +40,15 @@ body {
     color: darkgrey;
     background-color: #543A14;
     text-shadow: 2px 5px 3px #F0BB78;
+    cursor: pointer;
+    user-select: none;
 }
 
 #logo-picture {
     width: 450px;
     height: 80%;
+    cursor: pointer;
+    user-select: none;
 }
 
 /*Navbar*/
