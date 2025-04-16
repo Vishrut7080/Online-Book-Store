@@ -91,9 +91,16 @@ a {
 }
 
 .genre-image {
-    height: 100%;
+    max-width: 100%;
 }
 
 .genre-image>img {
-    height: 85%;
+    width: 100%;
+    height: 410PX;
+}
+
+.genre>p {
+    margin-bottom: 10px;
+    font-family: "Lavishly Yours", cursive;
+    font-size: 60px;
 }
