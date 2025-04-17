@@ -1,0 +1,23 @@
+#author-fav {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px
+}
+
+#author-fav>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#top {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px
+}
+
+#top>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

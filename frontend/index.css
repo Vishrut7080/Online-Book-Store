@@ -13,6 +13,7 @@ body {
     padding: 0;
     height: 100dvh;
     max-width: 100dvw;
+    background-color: #FFF0DC;
 }
 
 .outer-container {
@@ -103,7 +104,7 @@ body {
 #genre {
     align-items: center;
     justify-content: space-evenly;
-    padding: 55px
+    padding: 55px;
 }
 
 /* to select button */
@@ -117,9 +118,9 @@ body {
     font: 45px black;
     font-weight: 900;
     height: 75px;
-    width: 150px;
     vertical-align: middle;
     user-select: none;
+    text-align: center;
     margin: auto;
     margin-top: 15px;
 }
@@ -132,6 +133,10 @@ body {
 .genre-image>img {
     width: 100%;
     height: 410PX;
+}
+
+.genre {
+    background-color: #99BC85;
 }
 
 .genre>p {
