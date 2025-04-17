@@ -11,8 +11,19 @@ btn.forEach(bt => {
 
 function createModal() {
     const modal = document.createElement("div");
-    modal.innerHTML = `<p>Hellow World</p>`
-    modal.classList.add("modal")
+    modal.classList.add("modal", "flex")
+    const innermodal = document.createElement("div")
+    innermodal.classList.add("innermodal")
+
+
+
+
+
+    modal.appendChild(innermodal)
+
+
+
+
     console.log(modal)
     document.body.appendChild(modal)
 }
