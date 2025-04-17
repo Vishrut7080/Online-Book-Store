@@ -8,9 +8,23 @@
     background-color: rgba(62, 59, 59, 0.792);
 }
 
+/* innermodal */
 .innermodal {
     background-color: red;
     height: 85vh;
     width: 100%;
     margin: 0vh 5vw;
+    /* flex-direction: row */
+}
+
+#modal-image {
+    height: 100%;
+    flex: 4;
+    background-color: aqua;
+}
+
+#modal-details {
+    height: 100%;
+    flex: 6;
+    background-color: blue;
 }

@@ -13,8 +13,13 @@ function createModal() {
     const modal = document.createElement("div");
     modal.classList.add("modal", "flex")
     const innermodal = document.createElement("div")
-    innermodal.classList.add("innermodal")
-
+    innermodal.classList.add("innermodal", "flex")
+    innermodal.innerHTML = `<div id="modal-image">
+                              <img src="" alt="">
+                          </div>
+                          <div id="modal-detials">
+                              <p><div>Hello</div></p>
+                          </div>`
 
 
 
@@ -27,3 +32,4 @@ function createModal() {
     console.log(modal)
     document.body.appendChild(modal)
 }
+
