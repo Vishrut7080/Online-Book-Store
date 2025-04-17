@@ -54,8 +54,6 @@ body {
 }
 
 #logo-picture {
-    width: 450px;
-    height: 80%;
     cursor: pointer;
     user-select: none;
 }
