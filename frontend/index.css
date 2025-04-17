@@ -99,14 +99,14 @@ body {
 /*Sections*/
 /* ------------------------- */
 
-#genre {
+.card {
     align-items: center;
     justify-content: space-evenly;
     padding: 55px;
 }
 
 /* to select button */
-#genre>button {
+.card>button {
     background: none;
     border: none;
     cursor: pointer;
