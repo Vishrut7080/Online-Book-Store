@@ -13,6 +13,7 @@ body {
     padding: 0;
     height: 100dvh;
     max-width: 100dvw;
+    position: relative;
     background-color: #FFF0DC;
 }
 

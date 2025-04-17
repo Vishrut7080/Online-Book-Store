@@ -1,7 +1,18 @@
 const btn = document.querySelectorAll(".card>button");
 
+// extracting button from an array of buttons
 btn.forEach(bt => {
+    // function for clicking the cutton
     bt.addEventListener('click', () => {
-        console.log("Check");
+        createModal();
+        console.log("Check")
     })
 })
+
+function createModal() {
+    const modal = document.createElement("div");
+    modal.innerHTML = `<p>Hellow World</p>`
+    modal.classList.add("modal")
+    console.log(modal)
+    document.body.appendChild(modal)
+}
